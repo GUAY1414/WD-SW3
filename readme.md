@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/GUAY1414/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.jpg" alt="Nyebe" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Antonio B. Guay III</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  SEATWORK 3 
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=GUAY1414/WD-SW3)
 
 ---
 
@@ -117,4 +117,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Landing page template | This is a website template from youtube. I use it for me to have a starter template to edit. | https://www.youtube.com/watch?v=IXucQAEkIMo |
+| Hover button effect | I used this hover effect for my "Play Now" Button | https://www.youtube.com/watch?v=pdH5X2mXzPk&list=PL5e68lK9hEzd81JLjU2ey6WqODkKB2xFF&index=4 |
+| Hover button effect | I used this hover effect for my 3rd design animation | https://www.youtube.com/watch?v=wjHTKLstbRg&list=PL5e68lK9hEzd81JLjU2ey6WqODkKB2xFF&index=2 |
+| Hover button effect | I used this hover effect for my 4th design animation | https://www.youtube.com/watch?v=xnltEHWWjiM&t=141s |
