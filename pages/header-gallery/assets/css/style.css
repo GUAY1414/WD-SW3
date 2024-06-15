@@ -43,9 +43,7 @@ header.design-one {
   background: linear-gradient(245.59deg, #00BFFF 55%, #38ACEC 28.53%, #16E2F5 75.52%);
 }
 
-header.design-one img.logo1 {
-  height: 50px;
-}
+
 
 header.design-one nav.navigation {
   display: flex;
@@ -57,6 +55,16 @@ header.design-one nav.navigation a.navigation-content {
   font-weight: 600;
   font-size: 1.1rem;
   color: #151B8D;
+}
+
+header.design-one img.logo1 {
+  height: 50px;
+  padding-left: 45rem;
+}
+
+header.design-one .burger-icon{
+  display: inline-block;
+  padding: 10px;
 }
 
 /* Header Design Two */
@@ -100,20 +108,24 @@ header.design-two nav.navigation a.navigation-content-play {
 header.design-three {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
   width: 100vw;
+  padding: 0 2rem;
   background-image: url(../img/tree.jpg);
 }
 
 header.design-three img.logo3 {
   height: 60px;
+  margin-right: auto;
 }
 
 header.design-three nav.navigation {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex: 1;
+  justify-content: center;
 }
 
 header.design-three nav.navigation a.navigation-content {
@@ -121,6 +133,39 @@ header.design-three nav.navigation a.navigation-content {
   font-weight: 600;
   font-size: 1.1rem;
   color: #0e0701;
+}
+header.design-three .search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+header.design-three .search form {
+  display: flex;
+  
+}
+
+header.design-three .search input[type="text"] {
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  border: 1px solid #bbabab;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+header.design-three .search button[type="submit"] {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+  background-color: #dd3fa1;
+  color: rgb(255, 255, 255);
+  border: 1px solid #de00fc;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+header.design-three .search button[type="submit"]:hover {
+  background-color: #dd3fa1;
+  border-color: #dd3fa1;
 }
 
 /* Header Design Four */
@@ -148,22 +193,19 @@ header.design-three nav.navigation a.navigation-content {
   color: #ffffff;
 }
 
+
+
 /* Header Design Five */
 .design-five {
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  left: 0;
-  height: 100vh;
   justify-content: space-between;
+  padding: 0.7rem 10vw;
   background: repeating-linear-gradient(245.59deg, #00BFFF 55%, #38ACEC 28.53%, #16E2F5 75.52%);
-  padding: 0.5rem 0;
-  align-items: center;
-  align-self: flex-start;
 }
 
 .design-five .logo5 {
-  height: 100px;
-  padding: 1rem;
+  height: 50px;
 }
 
 
@@ -174,7 +216,7 @@ header.design-three nav.navigation a.navigation-content {
 
 .design-five .navigation {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -185,21 +227,14 @@ header.design-one-animation {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 0 10vw;
+  padding: 0.7rem 10vw;
   height: calc(50px + 1rem);
   align-items: center;
   background: linear-gradient(245.59deg, #00BFFF 55%, #38ACEC 28.53%, #16E2F5 75.52%);
 }
 
-header.design-one-animation img.logo1 {
-  height: 50px;
-  padding: 0.2rem 0;
-  transition: all 0.3s ease;
-}
 
-header.design-one-animation img.logo1:hover {
-  transform: perspective(20px) rotateY(-7deg);
-}
+
 
 header.design-one-animation nav.navigation {
   display: flex;
@@ -220,6 +255,27 @@ header.design-one-animation a.navigation-content {
 
 header.design-one-animation a.navigation-content:hover {
   background: rgb(255, 255, 255);
+}
+
+header.design-one-animation img.logo1 {
+  height: 50px;
+  padding-left: 45rem;
+  transition: all 0.3s ease;
+}
+
+header.design-one-animation img.logo1:hover {
+  transform: perspective(30px) rotateY(-.9deg);
+}
+
+header.design-one-animation .burger-icon{
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  transition: background all 0.3s ease;
+}
+
+header.design-one-animation .burger-icon :hover{
+  background: #16E2F5;
 }
 
 /* Design Two Animation */
@@ -297,14 +353,16 @@ header.design-two-animation nav.navigation a.navigation-content-play:active {
 header.design-three-animation {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
   width: 100vw;
+  padding: 0 2rem;
   background-image: url(../img/tree.jpg);
 }
 
 header.design-three-animation img.logo3 {
   height: 60px;
+  margin-right: auto;
   transition: transform 0.3s ease;
 }
 
@@ -315,8 +373,9 @@ header.design-three-animation img.logo3:hover {
 header.design-three-animation nav.navigation {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 1rem;
+  flex: 1;
   overflow: hidden;
   transition: background 0.3s ease;
 }
@@ -379,6 +438,34 @@ header.design-three-animation nav.navigation a.navigation-content .liquid::after
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
   }
+}
+
+header.design-three-animation .search form {
+  display: flex;
+  
+}
+
+header.design-three-animation .search input[type="text"] {
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  border: 1px solid #bbabab;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+header.design-three-animation .search button[type="submit"] {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+  background-color: #dd3fa1;
+  color: rgb(255, 255, 255);
+  border: 1px solid #de00fc;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+header.design-three-animation .search button[type="submit"]:hover {
+  background-color: #333;
+  border-color: #dd3fa1;
 }
 
 
@@ -487,62 +574,82 @@ header.design-three-animation nav.navigation a.navigation-content .liquid::after
 /* design 5 animation */
 
 .design-five-animation {
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  left: 0;
-  height: 100vh;
   justify-content: space-between;
+  padding: 0.7rem 10vw;
   background: repeating-linear-gradient(245.59deg, #00BFFF 55%, #38ACEC 28.53%, #16E2F5 75.52%);
-  padding: 0.5rem 0;
-  align-items: center;
-  align-self: flex-start;
 }
 
 .design-five-animation .logo5 {
   height: 100px;
-  padding: 1rem;
+  transition: transform 0.5s ease;
+}
+
+.design-five-animation .logo5:hover{
+  transform: scale(2.9);
 }
 
 
-ul{
-  padding: 0;
+.navigation {
   display: flex;
-  justify-content: center ;
-}
-li{
-  list-style-type: none;
-  height: 85px;
-  overflow: hidden;
-}
-li>span{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
   align-items: center;
 }
-.design-five-animation li>span:nth-child(1) {
-  color: #1abc9c;
-  background-color: rgba(225,225,225,0.05);
+
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  height: 100px;
+  width: 120px;
+  overflow: hidden;
+  position: relative;
+  transition: height 0.5s ease;
+}
+
+li > span {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+
+
+li > span:nth-child(1) {
+  background-color: rgba(255, 255, 255, 0.5);
   font-size: 32px;
+  color: #1abc9c;
+  z-index: 2;
 }
 
-.design-five-animation li>span:nth-child(2) {
+li > span:nth-child(2) {
   background-color: #1abc9c;
+  opacity: 0;
+  z-index: 1;
 }
 
+li:hover {
+  height: 120px; 
+}
 
+li:hover > span:nth-child(1) {
+  transform: translateY(-100%);
+}
 
-.design-five-animation a{
+li:hover > span:nth-child(2) {
+  opacity: 1; 
+  transform: translateY(-100%);
+}
+
+a {
   color: white;
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
 }
-
-.design-five-animation .navigation {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-

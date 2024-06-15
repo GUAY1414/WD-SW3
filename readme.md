@@ -121,3 +121,5 @@ WD-ProjectName
 | Hover button effect | I used this hover effect for my "Play Now" Button | https://www.youtube.com/watch?v=pdH5X2mXzPk&list=PL5e68lK9hEzd81JLjU2ey6WqODkKB2xFF&index=4 |
 | Hover button effect | I used this hover effect for my 3rd design animation | https://www.youtube.com/watch?v=wjHTKLstbRg&list=PL5e68lK9hEzd81JLjU2ey6WqODkKB2xFF&index=2 |
 | Hover button effect | I used this hover effect for my 4th design animation | https://www.youtube.com/watch?v=xnltEHWWjiM&t=141s |
+| Search bar | I used this search bar for my 3rd design | https://www.youtube.com/watch?v=sjbGyeEiTy0 |
+| Hover button effect | I used this hover button effect for my 5th design animation | https://www.youtube.com/watch?v=JuZ6hChsddI&t=87s |
