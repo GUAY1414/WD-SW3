@@ -61,9 +61,12 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+This project has 1 landing page, 5 headers, and 5 footers.
 - Whats the purpose
+The purpose of this project is for us to improve in html and css.
 - What are key components
 - What technology used and how it is used
+It is used by creating a website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
